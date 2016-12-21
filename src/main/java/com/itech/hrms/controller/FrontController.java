@@ -21,7 +21,7 @@ public class FrontController {
 	@RequestMapping(value = "/register", method = RequestMethod.POST, consumes = org.springframework.http.MediaType.APPLICATION_JSON_VALUE)
 	public @ResponseBody Status registration(@RequestBody Employee employee){
 		try{
-			//test
+			//test123
 			System.out.println("Inside registration()");
 			empService.employeeRegister(employee);
 	        System.out.println("EmpDao ::"+empService);
